@@ -1,7 +1,7 @@
 package cp_mq_nsq
 
 import (
-	"v5-go-component/cp_mq"
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
 )
 
 type logger struct {

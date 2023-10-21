@@ -1,7 +1,7 @@
 package cp_obj
 
 import (
-	"v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
 )
 
 //easyjson:json

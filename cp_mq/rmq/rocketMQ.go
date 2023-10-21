@@ -1,7 +1,7 @@
 package cp_mq_rmq
 
 import (
-	"v5-go-component/cp_mq"
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
 )
 
 func init() {

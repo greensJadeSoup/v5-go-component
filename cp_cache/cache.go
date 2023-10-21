@@ -35,8 +35,8 @@ package cp_cache
 
 import (
 	"fmt"
+	"github.com/greensJadeSoup/v5-go-component/cp_dc"
 	"time"
-	"v5-go-component/cp_dc"
 )
 
 // Cache interface contains all behaviors for cache adapter.

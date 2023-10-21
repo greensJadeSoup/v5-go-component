@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 	"github.com/go-zookeeper/zk"
+	"github.com/greensJadeSoup/v5-go-component/cp_ini"
 	"strings"
 	"time"
-	"v5-go-component/cp_ini"
 )
 
 type DcConfig struct {

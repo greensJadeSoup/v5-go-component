@@ -2,16 +2,16 @@ package cp_microsrv
 
 import (
 	"fmt"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"runtime/debug"
 	"strings"
 	"sync"
 	"sync/atomic"
 	"time"
-	"v5-go-component/cp_error"
-	"v5-go-component/cp_log"
 
+	"github.com/greensJadeSoup/v5-go-component/cp_dc"
 	"github.com/hashicorp/consul/api"
-	"v5-go-component/cp_dc"
 )
 
 // serviceHeartbeatPath HTTP服务心跳检查路径、TCP服务连接检查标志

@@ -1,4 +1,4 @@
-module v5-go-component
+module github.com/greensJadeSoup/v5-go-component
 
 go 1.13
 

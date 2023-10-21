@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 	"github.com/go-ini/ini"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
 	"os"
 	"path/filepath"
-	"v5-go-component/cp_constant"
 )
 
 type ZookeeperINI struct {

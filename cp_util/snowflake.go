@@ -2,9 +2,9 @@ package cp_util
 
 import (
 	"fmt"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"sync"
 	"time"
-	"v5-go-component/cp_log"
 )
 
 type Snowflake struct {

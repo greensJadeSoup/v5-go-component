@@ -3,14 +3,14 @@ package cp_tracing
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_dc"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
+	"github.com/greensJadeSoup/v5-go-component/cp_obj"
+	"github.com/greensJadeSoup/v5-go-component/cp_util"
 	"strings"
 	"time"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_dc"
-	"v5-go-component/cp_log"
-	"v5-go-component/cp_mq"
-	"v5-go-component/cp_obj"
-	"v5-go-component/cp_util"
 )
 
 var TracerProducer *Tracer

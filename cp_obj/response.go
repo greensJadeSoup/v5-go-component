@@ -1,9 +1,9 @@
 package cp_obj
 
 import (
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_error"
-	"v5-go-component/cp_log"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 )
 
 type Response struct {

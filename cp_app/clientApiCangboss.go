@@ -1,10 +1,10 @@
 package cp_app
 
 import (
-	"v5-go-component/cp_api"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_error"
-	"v5-go-component/cp_obj"
+	"github.com/greensJadeSoup/v5-go-component/cp_api"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
+	"github.com/greensJadeSoup/v5-go-component/cp_obj"
 )
 
 // 调用sso session信息获取接口

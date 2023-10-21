@@ -3,15 +3,15 @@ package cp_app
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
+	"github.com/greensJadeSoup/v5-go-component/cp_middleware"
+	"github.com/greensJadeSoup/v5-go-component/cp_obj"
+	"github.com/greensJadeSoup/v5-go-component/cp_tracing"
 	"net/http"
 	"os"
 	"runtime/debug"
 	"time"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_log"
-	"v5-go-component/cp_middleware"
-	"v5-go-component/cp_obj"
-	"v5-go-component/cp_tracing"
 )
 
 type Http struct {

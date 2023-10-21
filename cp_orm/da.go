@@ -2,9 +2,9 @@ package cp_orm
 
 import (
 	"fmt"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"strconv"
-	"v5-go-component/cp_error"
-	"v5-go-component/cp_log"
 	"xorm.io/xorm"
 )
 

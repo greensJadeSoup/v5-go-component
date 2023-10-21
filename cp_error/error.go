@@ -3,7 +3,7 @@ package cp_error
 import (
 	"errors"
 	"github.com/facebookarchive/stackerr"
-	"v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
 )
 
 type SysError struct {

@@ -4,12 +4,12 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"runtime"
 	"time"
-	"v5-go-component/cp_log"
 
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
 	"github.com/nsqio/go-nsq"
-	"v5-go-component/cp_mq"
 )
 
 type NConsumer struct {

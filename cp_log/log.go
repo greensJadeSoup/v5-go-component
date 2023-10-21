@@ -2,12 +2,12 @@ package cp_log
 
 import (
 	"errors"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_dc"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 	"os"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_dc"
 )
 
 var L *Logger

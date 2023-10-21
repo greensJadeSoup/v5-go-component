@@ -3,13 +3,13 @@ package cp_app
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/greensJadeSoup/v5-go-component/cp_api"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_obj"
+	"github.com/greensJadeSoup/v5-go-component/cp_tracing"
+	"github.com/greensJadeSoup/v5-go-component/cp_util"
 	"strconv"
 	"time"
-	"v5-go-component/cp_api"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_obj"
-	"v5-go-component/cp_tracing"
-	"v5-go-component/cp_util"
 )
 
 type BaseController struct {

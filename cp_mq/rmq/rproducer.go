@@ -7,10 +7,10 @@ import (
 	"github.com/apache/rocketmq-client-go/v2"
 	"github.com/apache/rocketmq-client-go/v2/primitive"
 	"github.com/apache/rocketmq-client-go/v2/producer"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"time"
-	"v5-go-component/cp_log"
 
-	"v5-go-component/cp_mq"
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
 )
 
 type RProducer struct {

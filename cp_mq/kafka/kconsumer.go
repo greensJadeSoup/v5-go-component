@@ -5,14 +5,14 @@ import (
 	"errors"
 	"fmt"
 	"github.com/Shopify/sarama"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
+	"github.com/greensJadeSoup/v5-go-component/cp_util"
 	"runtime"
 	"strings"
 	"sync"
 	"time"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_log"
-	"v5-go-component/cp_mq"
-	"v5-go-component/cp_util"
 )
 
 type KConsumerItem struct {

@@ -1,10 +1,10 @@
 package cp_util
 
 import (
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"os/exec"
 	"runtime"
 	"strings"
-	"v5-go-component/cp_log"
 )
 
 func RunInLinuxWithErr(cmd string) (string, error) {

@@ -2,12 +2,12 @@ package cp_microsrv
 
 import (
 	"fmt"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
 	"strconv"
 	"strings"
-	"v5-go-component/cp_error"
 )
 
-//APIService API服务对象
+// APIService API服务对象
 type MicroService struct {
 	MicroSvrMgr *MicroSvrManager
 
@@ -26,7 +26,7 @@ type MicroService struct {
 	StatusChange bool
 }
 
-//Init 初始化Service的基本参数
+// Init 初始化Service的基本参数
 func (mc *MicroService) Init(sid string) error {
 	if mc.IsInit {
 		return nil

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
 	"github.com/nsqio/go-nsq"
-	"v5-go-component/cp_mq"
 )
 
 type NProducer struct {

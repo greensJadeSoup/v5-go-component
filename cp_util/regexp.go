@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	v "v5-go-component/cp_util/validation"
+	v "github.com/greensJadeSoup/v5-go-component/cp_util/validation"
 )
 
 func RegexpMatch(text, regular string) bool {

@@ -4,16 +4,16 @@ import (
 	"bytes"
 	"crypto/tls"
 	"fmt"
+	"github.com/greensJadeSoup/v5-go-component/cp_api"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
+	"github.com/greensJadeSoup/v5-go-component/cp_obj"
 	"io/ioutil"
 	"net"
 	"net/http"
 	"strconv"
 	"time"
-	"v5-go-component/cp_api"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_error"
-	"v5-go-component/cp_log"
-	"v5-go-component/cp_obj"
 )
 
 // APIClient api客户端对象

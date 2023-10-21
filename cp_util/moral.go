@@ -1,9 +1,9 @@
 package cp_util
 
 import (
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"os"
 	"runtime"
-	"v5-go-component/cp_log"
 )
 
 const CANGBOSS_UUID = "42005b8c-b736-48ec-a67a-581ffce4f81a"

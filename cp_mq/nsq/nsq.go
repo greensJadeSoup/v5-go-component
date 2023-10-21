@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/astaxie/beego/httplib"
-	"v5-go-component/cp_mq"
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
 )
 
 func init() {

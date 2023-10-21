@@ -2,8 +2,8 @@ package cp_cache
 
 import (
 	"fmt"
-	"v5-go-component/cp_error"
-	"v5-go-component/cp_log"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 )
 
 type redisSingel struct {

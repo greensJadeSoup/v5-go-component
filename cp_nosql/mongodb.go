@@ -3,14 +3,14 @@ package cp_nosql
 import (
 	"context"
 	"fmt"
+	"github.com/greensJadeSoup/v5-go-component/cp_dc"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 	"strings"
 	"time"
-	"v5-go-component/cp_dc"
-	"v5-go-component/cp_error"
-	"v5-go-component/cp_log"
 )
 
 type Mongo struct {

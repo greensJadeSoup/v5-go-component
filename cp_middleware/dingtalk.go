@@ -3,8 +3,8 @@ package cp_middleware
 import (
 	"bytes"
 	"encoding/json"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"net/http"
-	"v5-go-component/cp_log"
 )
 
 // DingTalk 钉钉机器人

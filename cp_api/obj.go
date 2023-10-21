@@ -1,6 +1,6 @@
 package cp_api
 
-import "v5-go-component/cp_obj"
+import "github.com/greensJadeSoup/v5-go-component/cp_obj"
 
 type SellerShopDetail struct {
 	Platform  string `json:"platform"`

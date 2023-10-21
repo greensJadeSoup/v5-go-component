@@ -3,8 +3,8 @@ package cp_util
 import (
 	"bufio"
 	"fmt"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
 	"os"
-	"v5-go-component/cp_error"
 )
 
 func DirMidirWhenNotExist(dir string) error {

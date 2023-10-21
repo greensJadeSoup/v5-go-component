@@ -2,9 +2,9 @@ package cp_middleware
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_obj"
 	"sync/atomic"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_obj"
 )
 
 type Limiter struct {
@@ -54,7 +54,7 @@ func InLimiter(l *Limiter) gin.HandlerFunc {
 
 }
 
-//serveAcquire 获取请求权
+// serveAcquire 获取请求权
 func (l *Limiter) serveAcquire() {
 	atomic.AddUint64(&l.Count.Served, 1)
 
@@ -64,17 +64,17 @@ func (l *Limiter) serveAcquire() {
 	}
 }
 
-//serveReject 拒绝请求的汇总
+// serveReject 拒绝请求的汇总
 func (l *Limiter) serveReject() {
 	atomic.AddUint64(&l.Count.Reject, 1)
 }
 
-//servePanic 请求异常的汇总
+// servePanic 请求异常的汇总
 func (l *Limiter) servePanic() {
 	atomic.AddUint64(&l.Count.Panic, 1)
 }
 
-//serveRelease 释放请求权
+// serveRelease 释放请求权
 func (l *Limiter) serveRelease() {
 	<-l.ServeMaxChan
 	atomic.AddInt32(&l.Count.Serving, -1)

@@ -2,10 +2,10 @@ package cp_app
 
 import (
 	"fmt"
-	"v5-go-component/cp_api"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_error"
-	"v5-go-component/cp_obj"
+	"github.com/greensJadeSoup/v5-go-component/cp_api"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
+	"github.com/greensJadeSoup/v5-go-component/cp_obj"
 )
 
 func ShopeeFirstMileShipOrder(solder *BaseController, orderID uint64, orderTime int64) error {

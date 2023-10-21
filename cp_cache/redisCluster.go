@@ -3,10 +3,10 @@ package cp_cache
 import (
 	"context"
 	r "github.com/go-redis/redis/v8"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"golang.org/x/exp/errors/fmt"
 	"strings"
 	"time"
-	"v5-go-component/cp_log"
 )
 
 type redisCluster struct {

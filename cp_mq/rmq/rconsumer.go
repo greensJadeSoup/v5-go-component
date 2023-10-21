@@ -7,13 +7,13 @@ import (
 	"github.com/apache/rocketmq-client-go/v2"
 	"github.com/apache/rocketmq-client-go/v2/consumer"
 	"github.com/apache/rocketmq-client-go/v2/primitive"
+	"github.com/greensJadeSoup/v5-go-component/cp_constant"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
 	"runtime"
 	"sync"
 	"time"
-	"v5-go-component/cp_constant"
-	"v5-go-component/cp_log"
 
-	"v5-go-component/cp_mq"
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
 )
 
 type RConsumer struct {

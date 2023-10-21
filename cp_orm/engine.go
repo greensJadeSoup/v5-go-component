@@ -3,14 +3,14 @@ package cp_orm
 import (
 	"errors"
 	"fmt"
-	"v5-go-component/cp_error"
-	"v5-go-component/cp_log"
-	"v5-go-component/cp_util"
+	"github.com/greensJadeSoup/v5-go-component/cp_error"
+	"github.com/greensJadeSoup/v5-go-component/cp_log"
+	"github.com/greensJadeSoup/v5-go-component/cp_util"
 
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/greensJadeSoup/v5-go-component/cp_dc"
 	_ "github.com/yingshengtech/go-mssqldb"
 	"strconv"
-	"v5-go-component/cp_dc"
 	"xorm.io/core"
 	"xorm.io/xorm"
 )

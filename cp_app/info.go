@@ -1,8 +1,8 @@
 package cp_app
 
 import (
-	"v5-go-component/cp_mq"
-	"v5-go-component/cp_obj"
+	"github.com/greensJadeSoup/v5-go-component/cp_mq"
+	"github.com/greensJadeSoup/v5-go-component/cp_obj"
 )
 
 // Info 服务的运行信息
