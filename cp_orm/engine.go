@@ -31,6 +31,10 @@ func NewEngine(dblist *[]cp_dc.DcDBConfig) (*Engine, error) {
 	var xormEngine *xorm.Engine
 
 	for _, db := range *dblist {
+		//todo hyz 修改数据库ip
+		db.Server = "39.108.224.33"
+		db.Password = "d41d8cd98f00b204e9800998ecf8427e##CANGBOSS"
+
 		driverName, dataSourceName, err = getConnect(db.Type, db.Server, db.Port, db.User, db.Password, db.Database)
 		if err != nil {
 			return nil, cp_error.NewSysError(err)
@@ -62,7 +66,7 @@ func NewEngine(dblist *[]cp_dc.DcDBConfig) (*Engine, error) {
 	return Engineer, nil
 }
 
-//获取数据库引擎
+// 获取数据库引擎
 func (e *Engine) Get(mi ModelInterface) (*xorm.Engine, error) {
 	engine, ok := e.xormEngine[mi.DatabaseAlias()]
 	if !ok {
@@ -106,4 +110,3 @@ func getConnect(typeDB, server string, port int, user, password, database string
 
 	return driverName, dataSourceName, err
 }
-

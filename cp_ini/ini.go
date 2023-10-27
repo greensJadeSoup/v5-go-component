@@ -10,19 +10,20 @@ import (
 )
 
 type ZookeeperINI struct {
-	Server	string `ini:"server"`
-	Key	string `ini:"key"`
+	Server string `ini:"server"`
+	Key    string `ini:"key"`
 }
 
 type LocalConfig struct {
-	Zookeeper	ZookeeperINI	`ini:"zookeeper"`
+	Zookeeper ZookeeperINI `ini:"zookeeper"`
 }
 
 func GetLocalConfig() (*LocalConfig, error) {
 	var fileName = cp_constant.BaseConf
 	lc := &LocalConfig{}
 
-	appPath, err := filepath.Abs(filepath.Dir(os.Args[0]))
+	//appPath, err := filepath.Abs(filepath.Dir(os.Args[0]))
+	appPath, err := os.Getwd()
 	if err != nil {
 		panic(err)
 	}
